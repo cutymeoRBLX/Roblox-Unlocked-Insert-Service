@@ -1,0 +1,19 @@
+﻿/* Global styles */
+body             {font-family:arial;color:white;background-color:black;margin:50px 20px;}
+::selection      {color:darkblue;background:white;}
+::-moz-selection {color:darkblue;background:white;}
+
+/* Content Block Styles */
+h1         {border-color:white;border-style:solid;border-width:0 0 1px 0;margin:0 16px;padding:0.15em 0;}
+h1, h2, h3 {text-align:center;}
+p, h2, h3  {padding:0 2px;}
+
+/* Links */
+a:link    {color:white;}
+a:visited {color:lightgrey;}
+a:active  {color:yellow;}
+a:hover   {color:yellow;}
+
+/* UI Content Box */
+.UiContentBox {display:block;border-collapse:collapse;border:1px solid white;background-color:darkblue;margin:auto;padding:0;}
+body>.UiContentBox {width:100%;min-width:384px;max-width:768px;margin:auto;}
